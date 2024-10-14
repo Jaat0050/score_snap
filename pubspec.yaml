@@ -1,0 +1,38 @@
+name: score_snap
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  double_back_to_close_app: ^2.1.0
+  fluttertoast: ^8.2.5
+  image_picker: ^0.8.4+8
+  permission_handler: ^10.2.0
+  flutter_local_notifications: ^15.1.0+1
+  image_cropper: ^5.0.1
+  image: ^4.2.0
+  http: ^1.1.0
+  gsheets: ^0.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
